@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+
+    <!-- Profile Card -->
+    <div class="bg-white p-6 rounded-lg shadow-md text-center w-80">
+        <!-- Profile Image -->
+        <div class="flex justify-center">
+            <div class="w-24 h-24 rounded-full border-4 border-blue-400 mx-auto mb-4 flex items-center justify-center bg-gray-300">
+                <span class="text-gray-600">100 x 100
+                </span>
+            </div>
+        </div>
+        <!-- Name -->
+        <h2 class="text-xl font-semibold text-gray-800 mt-4">Zer01</h2>
+        <!-- Title -->
+        <p class="text-gray-500 text-sm">Web Developer</p>
+        <!-- Description -->
+        <p class="text-gray-600 mt-2 text-sm">
+            Passionate about creating beautiful and functional web applications.
+        </p>
+    </div>
+
+</body>
+</html>
